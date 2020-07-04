@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Memory Game</title>
+    <style>
+    #a{
+        color:red;
+        text-align: center;
+    }
+    .row{
+
+        text-align:center;
+        
+    }
+
+    .card{
+        height:100px;
+        width:100px;
+        display:inline-block;
+        background-color: #eee;
+        cursor:pointer;
+    }
+
+    .card:hover{
+        box-shadow: inset 0px 0px 0px 1px red;
+        box-sizing: border-box;
+    }
+    .card.done{
+        cursor: default;
+    }
+    .card.done:hover{
+            cursor:default;
+            box-shadow:none;
+    }   
+
+
+
+
+
+
+    .red{
+        background-color: red;
+    }
+    .green{
+        background-color:green;
+    }
+    .blue{
+        background-color:blue;
+    }
+    .orange{
+        background-color:orange;
+    }
+    .cyan{
+        background-color:cyan;
+    }
+    .pink{
+        background-color:pink;
+    }
+    .yellow{
+        background-color:yellow;
+    }
+    .teal{
+        background-color:teal;
+    }
+
+
+    .color-hidden{
+        background-color: #eee;
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 id="a">Memory Test</h1>
+    <div class="row">
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+        <div 
+            
+             class="card  color-hidden"
+             onclick="onCardClicked(event)"
+        ></div>
+        <div 
+            
+             class="card color-hidden"
+             onclick="onCardClicked(event)"
+             ></div>
+        <div 
+             
+             class="card color-hidden"
+             onclick="onCardClicked(event)"
+             ></div>
+    </div>
+    <div class="row">
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+        ></div>
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+         ></div>
+    </div>
+    <div class="row">
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+    </div>
+    <div class="row">
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+        <div 
+            
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+        <div 
+        
+            class="card color-hidden"
+            onclick="onCardClicked(event)"
+            ></div>
+    </div>
+
+
+ <script  src="game.js" ></script>
+</body>
+</html>
